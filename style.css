@@ -31,6 +31,8 @@
 body {
   width: 100%;
   background-color: var(--stone-100);
+  font-weight: 400;
+  line-height: 1.6;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -41,7 +43,7 @@ body {
 article {
   background-color: var(--white);
   max-width: 42rem;
-  margin: 5rem;
+  margin: clamp(2rem, 8vw, 5rem);
   padding: clamp(1.5rem, 4vw, 2.5rem);
   border-radius: 1rem;
 }
@@ -54,17 +56,22 @@ img {
 h1 {
   margin: 0.3rem;
   font-family: "Young Serif", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
 }
 
 .preparation-time-title {
   color: var(--rose-800);
   font-family: sans-serif, serif;
+  font-weight: 600;
 }
 
 h2 {
   margin: 0.5rem;
   color: var(--brown-800);
   font-family: "Young Serif", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
 }
 
 p {

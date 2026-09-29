@@ -5,7 +5,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -72,11 +71,11 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Continued development
 
 - Understanding how to use HTML5 attributes for more accessible web content.
-- For accesibility learn more about css attributes like aria-label.
+- For accessibility learn more about css attributes like aria-label.
 - learn more about the table and its properties.
 
 ## Author
 
 - Website - [Camagu](https://mgadleca.netlify.app/)
 - Frontend Mentor - [@camagu](https://www.frontendmentor.io/profile/yourusername)
-- LinkedIn - [@ycamagu](https://www.linkedin.com/in/camagu-mgadle/)
+- LinkedIn - [@camagu](https://www.linkedin.com/in/camagu-mgadle/)
