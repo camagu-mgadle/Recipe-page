@@ -23,7 +23,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - Solution URL: [ https://camagu-mgadle.github.io/Recipe-page/](https://camagu-mgadle.github.io/Recipe-page/)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://mamasurecipe.netlify.app/](https://mamasurecipe.netlify.app/)
 
 ## My process
 
