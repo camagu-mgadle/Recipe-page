@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --stone-100: hsl(30, 54%, 90%);
+  --stone-150: hsl(30, 18%, 87%);
+  --stone-600: hsl(30, 10%, 34%);
+  --stone-900: hsl(24, 5%, 18%);
+  --brown-800: hsl(14, 45%, 36%);
+  --rose-800: hsl(332, 51%, 32%);
+  --rose-50: hsl(330, 100%, 98%);
+  --footer: hsl(228, 45%, 44%);
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url(./assets/fonts/outfit/static/Outfit-Regular.ttf) format("true");
+  font-weight: 100 900;
+}
+
+@font-face {
+  font-family: "Young Serif";
+  src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+  font-weight: 400;
+}
+
+body {
+  width: 100%;
+  background-color: var(--stone-100);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+}
+
+article {
+  background-color: var(--white);
+  max-width: 42rem;
+  margin: 5rem;
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+  border-radius: 1rem;
+}
+
+img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+h1 {
+  margin: 0.3rem;
+  font-family: "Young Serif", sans-serif;
+}
+
+.preparation-time-title {
+  color: var(--rose-800);
+  font-family: sans-serif, serif;
+}
+
+h2 {
+  margin: 0.5rem;
+  color: var(--brown-800);
+  font-family: "Young Serif", sans-serif;
+}
+
+p {
+  color: var(--stone-600);
+  font-size: 1rem;
+}
+
+ul,
+ol {
+  color: var(--stone-600);
+  padding-inline-start: 1.9rem;
+  font-size: 1rem;
+}
+
+li {
+  padding-inline-start: 0.3em;
+}
+
+.preparation {
+  background-color: var(--rose-50);
+  border-radius: 0.3rem;
+}
+
+hr {
+  border-top: 0.1rem solid var(--stone-150);
+  margin: 1rem;
+}
+
+table {
+  width: 100%;
+}
+
+caption {
+  color: var(--stone-600);
+}
+
+table th,
+table td {
+  text-align: start;
+  padding: 0.875rem;
+  width: 50%;
+}
+
+table th {
+  font-weight: 400;
+  color: var(--stone-600);
+}
+
+table td {
+  font-weight: 700;
+  color: var(--brown-800);
+  padding-inline-start: 1rem;
+}
+
+table tr + tr th,
+table tr + tr td {
+  border-top: 0.1rem solid var(--stone-150);
+}
+
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+  color: var(--stone-600);
+  font-weight: 600;
+}
+.attribution a {
+  color: var(--footer);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.attribution a:hover {
+  color: var(--footer);
+  text-decoration: underline;
+  font-weight: 700;
+}
