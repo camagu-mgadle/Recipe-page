@@ -79,3 +79,4 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - Website - [Camagu](https://mgadleca.netlify.app/)
 - Frontend Mentor - [@camagu](https://www.frontendmentor.io/profile/yourusername)
 - LinkedIn - [@camagu](https://www.linkedin.com/in/camagu-mgadle/)
+# Product-preview-card-component
